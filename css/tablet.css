@@ -1,0 +1,243 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 582px;
+  }
+
+/* -- Header and contacts -- */
+
+.header > .container {
+  width: 100vw;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.mob-menu ,.mob-menu-open {
+  display: none;}
+
+.nav {
+    display: flex;
+
+}
+
+.nav-list {
+  list-style: none;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--headers-text-color);
+  justify-content: center;
+  position: relative;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link {
+  padding: 15px;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+  color: #4d5ae5;
+}
+
+.nav-item.current::after {
+  content: "";
+  display: block;
+
+  height: 4px;
+  background: #404bbf;
+  border-radius: 2px;
+
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -24px;
+}
+
+.contact {
+    display: flex;
+  /* margin-left: auto; */
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-icon {
+  display: none;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+line-height: 1.33;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--headers-text-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.contact-item:hover,
+.contact-item:focus {
+  color: #4d5ae5;
+}
+
+.contact-icon {
+  fill: var(--text-color);
+}
+
+.contact-item > .contact-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-item:hover > .contact-icon {
+  fill: #4d5ae5;
+}
+
+/* -- PRINCIPLES -- */
+
+.principles > .container{
+ width: 100%;
+
+}
+
+
+.pr-list {
+   display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+
+
+}
+
+
+  .pr-list-subitem {
+  max-width: 356px;
+
+}
+
+
+
+
+  
+  /* -- MAIN BOX -- */
+
+.main-box > .container {
+  padding: 0;
+  justify-content: center;
+}
+
+  .main-box {
+    padding: 112px 0px 108px 0px ;
+  }
+
+  .main-box-name {
+    color: navy;
+
+    font-size: 56px;
+    line-height: 1.07 ;
+
+    margin-bottom: 40px;
+    max-width: 496px;
+  }
+
+
+/* -- TEAM -- */
+
+
+.team { 
+  padding-bottom: 104px;
+}
+
+.team-list {
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 72px;
+  column-gap: 24px;
+   
+}
+
+
+  /* ------ CUSTOMERS -----  */
+
+  .cust-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .cust-list-item {
+    width: calc((100% - 216px) / 2);
+  }
+
+/* -----FOOTER------- */
+
+.footer > .container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+column-gap: 24px;
+}
+ 
+.container > .ft1 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.container > .subscribe {
+  display: flex;
+align-items:flex-start;
+}
+
+.subscribe-form {
+  border: none;
+  display: flex;
+  gap: 24px;
+  color: #ffffff; 
+}
+
+.ft-soc-list:first-child {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.subscribe-button {
+  margin-top: 0;}
+
+.input-form {
+  width: 264px;
+}
+
+
+/*-- bnt JS MODAL button /*/
+.modal {
+  width: 408px;
+  min-height: 584px;
+}
+
+
+
+
+}

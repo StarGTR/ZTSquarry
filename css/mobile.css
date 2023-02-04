@@ -1,0 +1,55 @@
+@media screen and (min-width: 480px) {
+    
+    .container {width: 410px;}
+
+    /* HEADER */
+
+
+    /* -- mobile menu styles -- */
+
+    .mob-menu {
+padding: 40px;
+}
+
+
+
+/* -- MAIN BOX -- */
+
+.main-box {
+  padding: 112px 54px;
+}
+
+    .main-box-name { 
+  color: tomato;
+ 
+}
+    
+/* ------ CUSTOMERS -----  */
+ 
+.cust-list-item {
+  width: calc ((100% - 30px) / 2);
+  max-width: 190px;
+} 
+
+.cust-link {
+  padding: 16px 32px;
+}
+
+
+
+
+/* -----FOOTER------- */
+
+.input-form {
+  width: 396px;
+}
+
+
+/*-- bnt JS MODAL button /*/
+.modal {
+   width: 392px;
+  min-height: 584px;
+}
+
+
+}

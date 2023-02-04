@@ -1,0 +1,343 @@
+@media screen and (min-width: 1200px) {
+    
+    .container {width: 1158px;}
+    
+
+/* -- Header and contacts -- */
+
+.header > .container {
+
+width: 1158px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav {
+  margin-left: 76px;
+}
+
+
+.contact-list {
+  flex-direction: row;
+}
+
+.contact-icon {
+  display: flex;
+}
+
+.contact-item:first-child {
+  margin-right: 40px;
+}
+
+.contact-item {
+ font-size: 16px;
+  line-height: 1.5;
+}
+
+/* PRINCIPLES */
+
+.principles {
+  padding-top: 120px;
+}
+
+
+.pr-list  h3 {
+ text-align: left;
+font-weight: 700;
+font-size: 20px;
+
+}
+
+.pr-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+
+.pr-list-item::before {
+  content: "";
+  display: block;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  outline: #4d5ae5;
+  height: 112px;
+  margin-bottom: 8px;
+}
+
+.antenna::before {
+  content: "";
+  display: block;
+  background-image: url(../images/antenna\ 1.svg);
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.timer::before {
+  content: "";
+  display: block;
+  background-image: url(../images/clock\ 1.svg);
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.chart::before {
+  content: "";
+  display: block;
+  background-image: url(../images/diagram\ 1.svg);
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.astronaut::before {
+  content: "";
+  display: block;
+  background-image: url(../images/astronaut\ 1.svg);
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pr-list-subitem {
+  max-width: 264px;
+
+}
+
+
+
+    /* -- MAIN BOX -- */
+
+  
+     .main-box {
+  padding: 188px 0px ;
+     }
+     
+  .main-box-name {
+  margin-bottom: 48px;  
+}
+
+      .main-box-name { 
+  color: greenyellow;
+      }
+
+
+
+/* -- WHAT WE ARE DOING -- */
+
+
+
+.whatdo {
+  display: flex;
+  padding: 120px 0;
+}
+
+.whatdo-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headers-text-color);
+
+  margin-bottom: 72px;
+}
+
+.what-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
+
+.what-list-item {
+  display: inline;
+  width: 360px;
+  height: 300px;
+}
+
+
+/* -- TEAM -- */
+
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-list {
+  flex-direction: row;
+}
+
+
+ /* ------ CUSTOMERS -----  */
+.cust {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.cust-list {
+  display: flex;
+  gap: 24px;
+}
+
+.cust-list-item {
+  width: 168px;
+  height: 88px;}
+  
+
+
+/* -- FOOTER  -- */
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer > .container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+ 
+
+
+.subscribe-list {
+  margin-top: 0px;
+}
+
+.footer-details {
+  margin-right: 40px;}
+
+/* 
+.footer {
+  background: var(--accent-background-color);
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo-studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #f4f4fd;
+  text-transform: uppercase;
+}
+
+.footer-logo-web {
+  color: #4d5ae5;
+}
+
+.footer-details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+
+  margin-top: 16px;
+  max-width: 264px;
+}
+
+.ft-soc-list {
+  display: flex;
+
+  align-items: center;
+  gap: 16px;
+  color: #ffffff;
+  margin-bottom: 24px;
+  margin-left: 120px;
+}
+.ft-soc-list-item {
+  width: 40px;
+  height: 40px;
+}
+.ft-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ft-soc-link:hover {
+  background: #31d0aa;
+}
+
+.container > .subscribe {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.subscribe-list {
+  margin-left: 80px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+
+.subscribe-form {
+  border: none;
+  display: flex;
+
+  gap: 24px;
+  color: #ffffff;
+  margin-left: 80px;
+}
+
+.input-form {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 16px;
+  border-radius: 4px;
+  width: 260px;
+  height: 40px;
+}
+
+.subscribe-button {
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background: #404bbf;
+  cursor: pointer;
+}
+
+.subscribe-button-icon {
+  fill: #ffffff;
+} */
+
+
+}
