@@ -11,7 +11,16 @@
 padding: 40px;
 }
 
+.mob-nav-item {
+font-size: 36px;
+line-height: calc(40 / 36);
 
+margin-bottom: 40px;}
+
+
+.mob-contact-item:first-child {
+font-size: 36px;
+margin-bottom: 40px;}
 
 /* -- MAIN BOX -- */
 
@@ -19,15 +28,14 @@ padding: 40px;
   padding: 112px 54px;
 }
 
-    .main-box-name { 
+    /* .main-box-name { 
   color: tomato;
  
-}
+} */
     
 /* ------ CUSTOMERS -----  */
  
 .cust-list-item {
-  width: calc ((100% - 30px) / 2);
   max-width: 190px;
 } 
 
@@ -51,5 +59,7 @@ padding: 40px;
   min-height: 584px;
 }
 
+.modal-comment {
+  min-height: 120px;}
 
 }

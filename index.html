@@ -191,9 +191,22 @@
     What Are We Doing
 </h2>
 <ul class="what-list">
-    <li class="what-list-item"><img src="./images/desctop.jpg" alt="desctop" width="360"/></li>
-    <li class="what-list-item"><img src="./images/mobile.jpg" alt="mobile" width="360"></li>
-    <li class="what-list-item"><img src="./images/laptop_and_phone.jpg" alt="laptop and phone" width="360" ></li>
+    <li class="what-list-item">
+        <img 
+        srcset="./images/desctop.jpg 1x , 
+        ./images/desctop-2x.jpg 2x"
+        src="./images/desctop.jpg" alt="desctop" width="360"
+         /></li>
+    <li class="what-list-item">
+        <img 
+        srcset="./images/mobile.jpg 1x, 
+        ./images/mobile-2x.jpg 2x, "
+        src="./images/mobile.jpg" alt="mobile" width="360"></li>
+    <li class="what-list-item">
+        <img 
+         srcset="./images/laptop_and_phone.jpg 1x, 
+        ./images/laptop_and_phone-2x.jpg 2x, "
+        src="./images/laptop_and_phone.jpg" alt="laptop and phone" width="360" ></li>
 </ul>
 </div>
 </section>
@@ -244,8 +257,13 @@
     
     </div>
 </li>
-    <li class="team-list-item">  <img src="./images/TF.jpg " alt="photo Tom " width="264" />
-       <div class="team-name-position">
+    <li class="team-list-item"> 
+         <img src="./images/TF.jpg " alt="photo Tom " width="264"
+         
+          srcset="./images/TF.jpg 1x,
+               ./images/TF-2x.jpg 2x"/>
+        
+         <div class="team-name-position">
         <h3 class="team-name">Tom Ford</h3>
         <p class="team-position">Frontend Developer</p>
         <ul class="soc-list">
@@ -273,7 +291,10 @@
            </ul>
     </div>
 </li>
-    <li class="team-list-item"> <img src="./images/CG.jpg " alt="photo Camilla " width="264" />
+    <li class="team-list-item"> 
+        <img src="./images/CG.jpg " alt="photo Camilla " width="264"
+        srcset="./images/CG.jpg 1x,
+               ./images/CG-2x.jpg 2x" />
        <div class="team-name-position">
         <h3 class="team-name">Camila Garcia</h3>
         <p class="team-position">Marketing</p>
@@ -302,7 +323,10 @@
            </ul>
     </div>
 </li>
-    <li class="team-list-item"> <img src="./images/UI.jpg" alt="photo Daniel " width="264" />
+    <li class="team-list-item">
+         <img src="./images/DW.jpg" alt="photo Daniel " width="264"
+         srcset="./images/DW.jpg 1x,
+               ./images/DW-2x.jpg 2x" />
         <div class="team-name-position">
        <h3 class="team-name">Daniel Wilson</h3>
         <p class="team-position">UI Designer </p>
