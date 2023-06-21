@@ -1,65 +1,155 @@
 export const galleryItems = [
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg',
+  './images/Zts/preview/Image01.jpg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg',
-    description: 'Hokkaido Flower',
+      './images/Zts/Image01.jpg',
+    description: 'plant full view',
+  },
+
+                {
+    preview:
+'./images/Zts/preview/Image11.jpeg',
+    original:
+      './images/Zts/Image11.jpeg',
+    description: 'sandman',
+  },
+
+                      {
+    preview:
+'./images/Zts/preview/Image14.jpeg',
+    original:
+      './images/Zts/Image14.jpeg',
+    description: 'quarry',
+  },
+
+      {
+    preview:
+'./images/Zts/preview/Image06.jpeg',
+    original:
+      './images/Zts/Image06.jpeg',
+    description: 'quarry',
+  },
+// -----------
+{
+    preview:
+'./images/Zts/preview/Image16.jpeg',
+    original:
+      './images/Zts/Image16.jpeg',
+    description: 'open',
+  },
+
+
+  {
+    preview:
+'./images/Zts/preview/Image20.jpeg',
+    original:
+      './images/Zts/Image20.jpeg',
+    description: 'open',
+  },
+
+  {
+    preview:
+'./images/Zts/preview/Image21.jpeg',
+    original:
+      './images/Zts/Image21.jpeg',
+    description: 'open',
+  },
+
+  {
+    preview:
+'./images/Zts/preview/Image18.jpeg',
+    original:
+      './images/Zts/Image18.jpeg',
+    description: 'sandman',
+  },
+
+  {
+    preview:
+'./images/Zts/preview/Image17.jpeg',
+    original:
+      './images/Zts/Image17.jpeg',
+    description: 'sandmans',
+  },
+  // -----------
+
+
+
+
+
+
+  {
+    preview:
+'./images/Zts/preview/Image02.jpeg',
+    original:
+      './images/Zts/Image02.jpeg',
+    description: 'railway',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg',
+'./images/Zts/preview/Image03.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg',
-    description: 'Container Haulage Freight',
+      './images/Zts/Image03.jpeg',
+    description: 'tanks',
+  },
+  {
+      preview:
+  './images/Zts/preview/Image04.jpeg',
+    original:
+      './images/Zts/Image04.jpeg',
+    description: 'quarry',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785__340.jpg',
+'./images/Zts/preview/Image05.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785_1280.jpg',
-    description: 'Aerial Beach View',
+      './images/Zts/Image05.jpeg',
+    description: 'quarry',
   },
-  {
+  
+
+      {
     preview:
-      'https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619__340.jpg',
+'./images/Zts/preview/Image07.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619_1280.jpg',
-    description: 'Flower Blooms',
+      './images/Zts/Image07.jpeg',
+    description: 'quarry',
   },
-  {
+        {
     preview:
-      'https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334__340.jpg',
+'./images/Zts/preview/Image08.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334_1280.jpg',
-    description: 'Alpine Mountains',
+      './images/Zts/Image08.jpeg',
+    description: 'quarry',
   },
-  {
+          {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571__340.jpg',
+'./images/Zts/preview/Image09.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571_1280.jpg',
-    description: 'Mountain Lake Sailing',
+      './images/Zts/Image09.jpeg',
+    description: 'quarry',
   },
-  {
+            {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272__340.jpg',
+'./images/Zts/preview/Image10.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272_1280.jpg',
-    description: 'Alpine Spring Meadows',
+      './images/Zts/Image10.jpeg',
+    description: 'quarry',
   },
-  {
+
+                {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255__340.jpg',
+'./images/Zts/preview/Image12.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255_1280.jpg',
-    description: 'Nature Landscape',
+      './images/Zts/Image12.jpeg',
+    description: 'quarry',
   },
-  {
+                  {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843__340.jpg',
+'./images/Zts/preview/Image13.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg',
-    description: 'Lighthouse Coast Sea',
+      './images/Zts/Image13.jpeg',
+    description: 'quarry',
   },
+
 ];
